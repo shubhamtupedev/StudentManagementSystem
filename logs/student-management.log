@@ -1,0 +1,157 @@
+2024-09-22 00:21:36 [restartedMain] INFO  c.s.s.StudentManagementSystemApplication - Starting StudentManagementSystemApplication using Java 17.0.11 with PID 10768 (E:\StudentManagementSystem\StudentManagementSystem\target\classes started by Shubham in E:\StudentManagementSystem\StudentManagementSystem)
+2024-09-22 00:21:36 [restartedMain] INFO  c.s.s.StudentManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-22 00:21:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-22 00:21:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22 00:21:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2024-09-22 00:21:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-09-22 00:21:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-22 00:21:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22 00:21:40 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-22 00:21:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3487 ms
+2024-09-22 00:21:40 [restartedMain] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-22 00:21:40 [restartedMain] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+2024-09-22 00:21:40 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22 00:21:40 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22 00:21:40 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-22 00:21:41 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22 00:21:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-22 00:21:41 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78d4014d
+2024-09-22 00:21:41 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-22 00:21:43 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22 00:21:43 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22 00:21:43 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22 00:21:43 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+2024-09-22 00:21:43 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-22 00:21:43 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-22 00:21:43 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-22 00:21:43 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-22 00:21:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2024-09-22 00:21:44 [restartedMain] INFO  c.s.s.StudentManagementSystemApplication - Started StudentManagementSystemApplication in 8.234 seconds (process running for 9.418)
+2024-09-22 00:21:55 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-22 00:21:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@553a7bcf
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@71b899fd
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-22 00:21:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/students", parameters={}
+2024-09-22 00:21:55 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.springframework.studentmanagementsystem.controller.StudentController#getAllStudents()
+2024-09-22 00:21:55 [http-nio-8081-exec-1] INFO  c.s.s.s.impl.StudentServiceImpl - Fetching all students from the database.
+2024-09-22 00:21:55 [http-nio-8081-exec-1] ERROR c.s.s.s.impl.StudentServiceImpl - Fetching all students from the database.
+2024-09-22 00:21:56 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-22 00:21:56 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Student{age=24, sId=2, firstName='Jane', lastName='Smith', email='jane.smith@example.com'}, Student (truncated)...]
+2024-09-22 00:21:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-09-22 00:23:19 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22 00:23:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-22 00:23:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-22T00:23:22.776+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : Starting StudentManagementSystemApplication using Java 17.0.11 with PID 4104 (E:\StudentManagementSystem\StudentManagementSystem\target\classes started by Shubham in E:\StudentManagementSystem\StudentManagementSystem)
+2024-09-22T00:23:22.779+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T00:23:22.829+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-22T00:23:23.683+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T00:23:23.756+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-09-22T00:23:24.460+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-22T00:23:24.477+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-22T00:23:24.477+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22T00:23:24.542+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-22T00:23:24.543+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1713 ms
+2024-09-22T00:23:24.563+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-22T00:23:24.564+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2024-09-22T00:23:24.753+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T00:23:24.815+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-22T00:23:24.857+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T00:23:25.226+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T00:23:25.260+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-22T00:23:25.599+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a968982
+2024-09-22T00:23:25.601+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-22T00:23:26.658+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T00:23:26.714+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T00:23:27.010+05:30  WARN 4104 --- [StudentManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T00:23:27.113+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-09-22T00:23:27.208+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-22T00:23:27.260+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-22T00:23:27.299+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-22T00:23:27.428+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-22T00:23:27.478+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-22T00:23:27.493+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : Started StudentManagementSystemApplication in 5.213 seconds (process running for 5.98)
+2024-09-22T00:23:32.790+05:30  INFO 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-22T00:23:32.791+05:30  INFO 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-22T00:23:32.791+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-22T00:23:32.791+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-22T00:23:32.791+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-22T00:23:32.792+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2e11f8b4
+2024-09-22T00:23:32.793+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3f3e495e
+2024-09-22T00:23:32.793+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-22T00:23:32.793+05:30  INFO 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-22T00:23:32.806+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/students", parameters={}
+2024-09-22T00:23:32.828+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.springframework.studentmanagementsystem.controller.StudentController#getAllStudents()
+2024-09-22T00:23:32.849+05:30  INFO 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] c.s.s.service.impl.StudentServiceImpl    : Fetching all students from the database.
+2024-09-22T00:23:32.849+05:30 ERROR 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] c.s.s.service.impl.StudentServiceImpl    : Fetching all students from the database.
+2024-09-22T00:23:33.083+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-09-22T00:23:33.088+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Student{age=24, sId=2, firstName='Jane', lastName='Smith', email='jane.smith@example.com'}, Student (truncated)...]
+2024-09-22T00:23:33.153+05:30 DEBUG 4104 --- [StudentManagementSystem] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-22T00:25:29.203+05:30  INFO 4104 --- [StudentManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-09-22T00:25:29.271+05:30  INFO 4104 --- [StudentManagementSystem] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T00:25:29.287+05:30  INFO 4104 --- [StudentManagementSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-22T00:25:29.287+05:30  INFO 4104 --- [StudentManagementSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-22T00:25:29.388+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : Starting StudentManagementSystemApplication using Java 17.0.11 with PID 4104 (E:\StudentManagementSystem\StudentManagementSystem\target\classes started by Shubham in E:\StudentManagementSystem\StudentManagementSystem)
+2024-09-22T00:25:29.388+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T00:25:29.616+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T00:25:29.616+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-09-22T00:25:29.754+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-22T00:25:29.754+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-22T00:25:29.754+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22T00:25:29.780+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-22T00:25:29.780+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 382 ms
+2024-09-22T00:25:29.780+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-22T00:25:29.780+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2024-09-22T00:25:29.822+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T00:25:29.838+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T00:25:29.854+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T00:25:29.854+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-09-22T00:25:29.880+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6702eefb
+2024-09-22T00:25:29.880+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-09-22T00:25:29.947+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T00:25:29.957+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T00:25:30.023+05:30  WARN 4104 --- [StudentManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T00:25:30.058+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2024-09-22T00:25:30.099+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-22T00:25:30.103+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-22T00:25:30.120+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-22T00:25:30.163+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-22T00:25:30.173+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-22T00:25:30.173+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : Started StudentManagementSystemApplication in 0.825 seconds (process running for 128.674)
+2024-09-22T00:25:30.188+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-22T00:25:33.637+05:30  INFO 4104 --- [StudentManagementSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-22T00:25:33.694+05:30  INFO 4104 --- [StudentManagementSystem] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T00:25:33.694+05:30  INFO 4104 --- [StudentManagementSystem] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-09-22T00:25:33.711+05:30  INFO 4104 --- [StudentManagementSystem] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-09-22T00:25:33.795+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : Starting StudentManagementSystemApplication using Java 17.0.11 with PID 4104 (E:\StudentManagementSystem\StudentManagementSystem\target\classes started by Shubham in E:\StudentManagementSystem\StudentManagementSystem)
+2024-09-22T00:25:33.795+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-09-22T00:25:34.038+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-22T00:25:34.053+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-09-22T00:25:34.181+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-09-22T00:25:34.181+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-22T00:25:34.181+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-22T00:25:34.204+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-22T00:25:34.206+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 409 ms
+2024-09-22T00:25:34.208+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-09-22T00:25:34.213+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2024-09-22T00:25:34.248+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-22T00:25:34.254+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-22T00:25:34.268+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-22T00:25:34.273+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-09-22T00:25:34.288+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ab3947f
+2024-09-22T00:25:34.288+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-09-22T00:25:34.335+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-22T00:25:34.345+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-22T00:25:34.408+05:30  WARN 4104 --- [StudentManagementSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-22T00:25:34.439+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-09-22T00:25:34.479+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-22T00:25:34.493+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-22T00:25:34.499+05:30 DEBUG 4104 --- [StudentManagementSystem] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-22T00:25:34.549+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-22T00:25:34.560+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-09-22T00:25:34.579+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] c.s.s.StudentManagementSystemApplication : Started StudentManagementSystemApplication in 0.798 seconds (process running for 133.065)
+2024-09-22T00:25:34.582+05:30  INFO 4104 --- [StudentManagementSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
